@@ -1,0 +1,62 @@
+[
+    {
+      "algorithm": "rsa3072",
+      "keygens_s": "7.3",
+      "encaps_s": "32898.3",
+      "decaps_s": "729.7"
+    },
+    {
+      "algorithm": "X25519",
+      "keygens_s": "42892.7",
+      "encaps_s": "19057.0",
+      "decaps_s": "35930.3"
+    },
+    {
+      "algorithm": "X448",
+      "keygens_s": "6966.3",
+      "encaps_s": "3518.7",
+      "decaps_s": "7361.3"
+    },
+    {
+      "algorithm": "mlkem768",
+      "keygens_s": "83559.7",
+      "encaps_s": "93839.0",
+      "decaps_s": "96235.7"
+    },
+    {
+      "algorithm": "mlkem512",
+      "keygens_s": "119607.0",
+      "encaps_s": "136723.0",
+      "decaps_s": "158758.3"
+    },
+    {
+      "algorithm": "mlkem1024",
+      "keygens_s": "67644.3",
+      "encaps_s": "72133.0",
+      "decaps_s": "70959.7"
+    },
+    {
+      "algorithm": "frodo976aes",
+      "keygens_s": "2181.7",
+      "encaps_s": "1567.7",
+      "decaps_s": "1641.0"
+    },
+    {
+      "algorithm": "frodo976shake",
+      "keygens_s": "658.0",
+      "encaps_s": "601.0",
+      "decaps_s": "608.7"
+    },
+    {
+      "algorithm": "bikel5",
+      "keygens_s": "915.0",
+      "encaps_s": "6526.7",
+      "decaps_s": "239.7"
+    },
+    {
+      "algorithm": "hqc192",
+      "keygens_s": "258.5",
+      "encaps_s": "131.7",
+      "decaps_s": "89.0"
+    }
+  ]
