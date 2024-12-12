@@ -1,14 +1,14 @@
 # Speed comparisons between Nvidia cuPQC & Intel CPU's for Post Quantum & Classical Cryptography.
 
 ## Specifications:
-cuPQC:
+**GPU**:
 ```
 GPU used: Nvidia's a4000X
 CUDA version: 12.6
 OS: Ubuntu 22.04 LTS (GNU/Linux 5.15.0)
 Cryptographic Library: cuPQC, release 1
 ```
-Intel CPU #0:
+**Intel CPU #0:**
 ```
 Processor: 12th Gen Intel(R) Core(TM) i9-12900
 Architecture: x86_64
@@ -20,3 +20,19 @@ LibOQS Version: v0.12.0-rc1
 ML-KEM : FIPS-203
 ML-DSA: FIPS-204 
 ```
+## Results
+### For cuPQC:
+- **MLKEM-512:**
+```
+Key Generation Throughput: ~3170219.98 ops/sec
+Encapsulation Throughput: ~3268917.41 ops/sec
+Decapsulation Throughput: ~3144369.38 ops/sec
+```
+- **MLKEM-768:**
+```
+Key Generation Throughput: ~2421352.50 ops/sec
+Encapsulation Throughput: ~2475257.25 ops/sec
+Decapsulation Throughput: ~1599282.74 ops/sec
+```
+### For OpenSSL
+Results can be found in the [OpenSSL](https://github.com/lakshya-chopra/Speed-Comparisons-cuPQC-Intel/tree/main/OpenSSL) dir
