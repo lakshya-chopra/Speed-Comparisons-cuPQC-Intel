@@ -1,4 +1,4 @@
-# Speed comparisons between Nvidia cuPQC & Intel CPU's for Post Quantum & Classical Cryptography.
+# Speed comparisons between Nvidia's cuPQC & Intel CPUs for Post Quantum & Classical Cryptography.
 
 ## Specifications:
 **GPU**:
