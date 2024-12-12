@@ -34,5 +34,17 @@ Key Generation Throughput: ~2421352.50 ops/sec
 Encapsulation Throughput: ~2475257.25 ops/sec
 Decapsulation Throughput: ~1599282.74 ops/sec
 ```
+- **MLDSA-44:**
+```
+Key Generation Throughput: 2145190.54 ops/sec
+Sign Throughput: 252759.62 ops/sec
+Verification Throughput: 1152434.40 ops/sec
+```
+- **MLDSA-65:**
+```
+Key Generation Throughput: 1324213.74 ops/sec
+Sign Throughput: 202258.85 ops/sec
+Verification Throughput: 819874.50 ops/sec
+``` 
 ### For OpenSSL
 Results can be found in the [OpenSSL](https://github.com/lakshya-chopra/Speed-Comparisons-cuPQC-Intel/tree/main/OpenSSL) dir
